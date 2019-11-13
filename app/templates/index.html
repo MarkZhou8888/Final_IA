@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+    </head>
+    <body>
+        <h1>Test your SAT vocabulary knowledge!</h1>
+        <h3>Guess the vocab word from the definition: </h3>
+        <form method="Post" action = "/index">
+            <p>{{word}}</p>
+            <input type="text" name="user_word" value=""/>
+            <input type="submit" value="Submit"/>
+        </form>
+        <h3>{{correct_word}}<h3>
+        <h3>Score: {{score}}</h3>
+    </body>
+</html>
